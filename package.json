@@ -30,5 +30,8 @@
     "dependencies": {
         "aedes": "^0.51.2",
         "mqtt": "^5.7.1"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
