@@ -11,6 +11,9 @@
         "test": "jest --detectOpenHandles",
         "docs": "typedoc"
     },
+    "files": [
+        "lib/"
+    ],
     "author": "Michael Reiniger",
     "license": "MIT",
     "description": "All in one nodeJS MQTT implementation",
