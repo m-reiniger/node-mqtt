@@ -42,9 +42,9 @@ export class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    public fatal(...args: any[]): void {
+    public fatal(message: string, ...args: any[]): void {
         if (this.logLevel >= LogLevel.FATAL) {
-            console.error(`[FATAL]`, ...args);
+            console.error(`[FATAL] ${message}`, ...args);
         }
     }
 
@@ -54,9 +54,9 @@ export class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    public error(...args: any[]): void {
+    public error(message: string, ...args: any[]): void {
         if (this.logLevel >= LogLevel.ERROR) {
-            console.error(`[ERROR]`, ...args);
+            console.error(`[ERROR] ${message}`, ...args);
         }
     }
     
@@ -66,9 +66,9 @@ export class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    public warn(...args: any[]): void {
+    public warn(message: string, ...args: any[]): void {
         if (this.logLevel >= LogLevel.WARN) {
-            console.warn(`[WARN]`, ...args);
+            console.warn(`[WARN] ${message}`, ...args);
         }
     }
 
@@ -78,9 +78,9 @@ export class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    public info(...args: any[]): void {
+    public info(message: string, ...args: any[]): void {
         if (this.logLevel >= LogLevel.INFO) {
-            console.log(`[INFO]`, ...args);
+            console.log(`[INFO] ${message}`, ...args);
         }
     }
     
@@ -90,9 +90,9 @@ export class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    public debug(...args: any[]): void {
+    public debug(message: string, ...args: any[]): void {
         if (this.logLevel >= LogLevel.DEBUG) {
-            console.debug(`[DEBUG]`, ...args);
+            console.debug(`[DEBUG] ${message}`, ...args);
         }
     }
     
@@ -102,9 +102,9 @@ export class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    public trace(...args: any[]): void {
+    public trace(message: string, ...args: any[]): void {
         if (this.logLevel >= LogLevel.TRACE) {
-            console.trace(`[TRACE]`, ...args);
+            console.trace(`[TRACE] ${message}`, ...args);
         }
     }
 }
