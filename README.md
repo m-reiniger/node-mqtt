@@ -25,7 +25,7 @@ I am using [Aedes](https://github.com/moscajs/aedes) as a messaging broker and [
 
 This implementation supports:
 * all in one solution
-* insecure connecttions
+* insecure connections
 * username/password authentication
 * TLS connections
 * Log Level Based Logging
