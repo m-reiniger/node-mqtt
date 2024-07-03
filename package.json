@@ -17,6 +17,15 @@
     "author": "Michael Reiniger",
     "license": "MIT",
     "description": "All in one nodeJS MQTT implementation",
+    "keywords": [
+        "node",
+        "nodejs",
+        "mqtt",
+        "mqttjs",
+        "aedes",
+        "iot",
+        "broker"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/m-reiniger/node-mqtt.git"

@@ -38,7 +38,7 @@ This implementation supports:
 npm i --save @m-reiniger/node-mqtt
 ```
 
-## Example Usage
+## Example Usage Standalone
 
 Install Dependencies:
 ```
