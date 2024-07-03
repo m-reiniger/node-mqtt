@@ -32,6 +32,12 @@ This implementation supports:
 * customizable event handlers
 * client can act as both, subscriber and publisher
 
+## Install Package
+
+```
+npm i --save @m-reiniger/node-mqtt
+```
+
 ## Example Usage
 
 Install Dependencies:
