@@ -1,3 +1,4 @@
 docs/** linguist-vendored
 coverage/** linguist-vendored
 cert/** linguist-vendored
+lib/** linguist-vendored
