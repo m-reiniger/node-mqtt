@@ -87,6 +87,8 @@ const options = {
 ```
 #### create and start broker
 ```TypeScript
+import { MQTTBroker } from "@m-reiniger/node-mqtt";
+
 // create broker
 const broker = new MQTTBroker(options);
 // start broker server
@@ -114,6 +116,8 @@ const options = {
 ```
 #### create client and connect
 ```TypeScript
+import { MQTTClient } from "@m-reiniger/node-mqtt";
+
 // create client
 const client = new MQTTClient(options);
 // connect to broker
