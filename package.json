@@ -13,7 +13,11 @@
     },
     "author": "Michael Reiniger",
     "license": "MIT",
-    "description": "",
+    "description": "All in one nodeJS MQTT implementation",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/m-reiniger/node-mqtt.git"
+    },
     "devDependencies": {
         "@jest/globals": "^29.7.0",
         "@types/jest": "^29.5.12",
