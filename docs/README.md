@@ -113,7 +113,7 @@ const options = {
 ```TypeScript
 // create client
 const client = new MQTTClient(options);
-// client to broker
+// connect to broker
 client.connect();
 ```
 
@@ -140,6 +140,6 @@ See [API Docs]().
 
 ## TLS
 
-In order to use TLS you need to create key and cert files first. 
+In order to use TLS you need to create key and cert files first. You can use the provided `cert/*.pem` files for testing purposes, **BUT I HIGHLY RECOMMEND** to create your own.
 
 To create a TLS/OpenSSL certificate for secure communication, you can follow the instructions provided in the link: [How to create TLS/OpenSSL Cert](https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/). This guide will walk you through the process of setting up a certificate for local HTTPS development.

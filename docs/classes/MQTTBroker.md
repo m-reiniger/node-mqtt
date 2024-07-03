@@ -32,7 +32,7 @@ Creates an instance of MQTTBroker.
 
 #### Defined in
 
-mqtt/mqtt-broker.ts:46
+[mqtt/mqtt-broker.ts:46](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-broker.ts#L46)
 
 ## Methods
 
@@ -52,7 +52,7 @@ Starts the MQTT broker.
 
 #### Defined in
 
-mqtt/mqtt-broker.ts:58
+[mqtt/mqtt-broker.ts:58](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-broker.ts#L58)
 
 ***
 
@@ -68,4 +68,4 @@ Stops the MQTT broker.
 
 #### Defined in
 
-mqtt/mqtt-broker.ts:98
+[mqtt/mqtt-broker.ts:98](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-broker.ts#L98)

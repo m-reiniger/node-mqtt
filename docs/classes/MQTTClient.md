@@ -32,7 +32,7 @@ Creates an instance of MQTTClient.
 
 #### Defined in
 
-mqtt/mqtt-client.ts:46
+[mqtt/mqtt-client.ts:46](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L46)
 
 ## Methods
 
@@ -52,7 +52,7 @@ connects to the MQTT broker
 
 #### Defined in
 
-mqtt/mqtt-client.ts:58
+[mqtt/mqtt-client.ts:58](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L58)
 
 ***
 
@@ -74,7 +74,7 @@ Bind custom event handler
 
 #### Defined in
 
-mqtt/mqtt-client.ts:150
+[mqtt/mqtt-client.ts:150](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L150)
 
 ***
 
@@ -98,7 +98,7 @@ Publishes a message to a topic
 
 #### Defined in
 
-mqtt/mqtt-client.ts:130
+[mqtt/mqtt-client.ts:130](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L130)
 
 ***
 
@@ -114,7 +114,7 @@ disconnects from the MQTT broker
 
 #### Defined in
 
-mqtt/mqtt-client.ts:93
+[mqtt/mqtt-client.ts:93](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L93)
 
 ***
 
@@ -138,4 +138,4 @@ Subscribes to a topic
 
 #### Defined in
 
-mqtt/mqtt-client.ts:106
+[mqtt/mqtt-client.ts:106](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L106)

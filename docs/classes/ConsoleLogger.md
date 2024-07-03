@@ -36,17 +36,19 @@ Creates an instance of ConsoleLogger.
 
 #### Defined in
 
-logger/logger.ts:23
+[logger/logger.ts:23](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L23)
 
 ## Methods
 
 ### debug()
 
-> **debug**(...`args`): `void`
+> **debug**(`message`, ...`args`): `void`
 
 log debug message
 
 #### Parameters
+
+• **message**: `string`
 
 • ...**args**: `any`[]
 
@@ -60,17 +62,19 @@ log debug message
 
 #### Defined in
 
-logger/logger.ts:93
+[logger/logger.ts:93](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L93)
 
 ***
 
 ### error()
 
-> **error**(...`args`): `void`
+> **error**(`message`, ...`args`): `void`
 
 log error message
 
 #### Parameters
+
+• **message**: `string`
 
 • ...**args**: `any`[]
 
@@ -84,17 +88,19 @@ log error message
 
 #### Defined in
 
-logger/logger.ts:57
+[logger/logger.ts:57](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L57)
 
 ***
 
 ### fatal()
 
-> **fatal**(...`args`): `void`
+> **fatal**(`message`, ...`args`): `void`
 
 log fatal message
 
 #### Parameters
+
+• **message**: `string`
 
 • ...**args**: `any`[]
 
@@ -108,17 +114,19 @@ log fatal message
 
 #### Defined in
 
-logger/logger.ts:45
+[logger/logger.ts:45](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L45)
 
 ***
 
 ### info()
 
-> **info**(...`args`): `void`
+> **info**(`message`, ...`args`): `void`
 
 log info message
 
 #### Parameters
+
+• **message**: `string`
 
 • ...**args**: `any`[]
 
@@ -132,7 +140,7 @@ log info message
 
 #### Defined in
 
-logger/logger.ts:81
+[logger/logger.ts:81](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L81)
 
 ***
 
@@ -152,17 +160,19 @@ sets the log level
 
 #### Defined in
 
-logger/logger.ts:34
+[logger/logger.ts:34](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L34)
 
 ***
 
 ### trace()
 
-> **trace**(...`args`): `void`
+> **trace**(`message`, ...`args`): `void`
 
 log trace message
 
 #### Parameters
+
+• **message**: `string`
 
 • ...**args**: `any`[]
 
@@ -176,17 +186,19 @@ log trace message
 
 #### Defined in
 
-logger/logger.ts:105
+[logger/logger.ts:105](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L105)
 
 ***
 
 ### warn()
 
-> **warn**(...`args`): `void`
+> **warn**(`message`, ...`args`): `void`
 
 log warning message
 
 #### Parameters
+
+• **message**: `string`
 
 • ...**args**: `any`[]
 
@@ -200,4 +212,4 @@ log warning message
 
 #### Defined in
 
-logger/logger.ts:69
+[logger/logger.ts:69](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L69)

@@ -24,4 +24,4 @@ Options Set for MQTT Client
 
 ## Defined in
 
-mqtt/mqtt.types.ts:39
+[mqtt/mqtt.types.ts:39](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt.types.ts#L39)
