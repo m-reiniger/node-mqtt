@@ -1,8 +1,8 @@
-[**node-mqtt**](README.md) • **Docs**
+[**@m-reiniger/node-mqtt**](README.md) • **Docs**
 
 ***
 
-# node-mqtt
+# @m-reiniger/node-mqtt
 
 ## Classes
 

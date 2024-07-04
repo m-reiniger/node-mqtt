@@ -33,7 +33,7 @@ const startBroker = () => {
 }
 
 const startSubscriber = () => {
-    const options: MQTTClientOptions = Object.assign(defaultClientOptions, { port: 8883, host: 'localhost' }, { auth: getAuth() }, { tls: getTLS() });
+    const options: MQTTClientOptions = Object.assign(defaultClientOptions, { port: 8883, host: 'localhost', clientId: 'client1' }, { auth: getAuth() }, { tls: getTLS() });
     const client = new MQTTClient(options, new ConsoleLogger(LogLevel.INFO));
     client.connect();
 
@@ -47,7 +47,7 @@ const startSubscriber = () => {
 }
 
 const startPublisher = () => {
-    const options: MQTTClientOptions = Object.assign(defaultClientOptions, { port: 8883, host: 'localhost' }, { auth: getAuth() }, { tls: getTLS() });
+    const options: MQTTClientOptions = Object.assign(defaultClientOptions, { port: 8883, host: 'localhost', clientId: 'client2' }, { auth: getAuth() }, { tls: getTLS() });
     const client = new MQTTClient(options, new ConsoleLogger(LogLevel.INFO));
     client.connect();
 

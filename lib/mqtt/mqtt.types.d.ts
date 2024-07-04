@@ -32,6 +32,7 @@ export type MQTTBrokerOptions = MQTTConnectionOptions & {
 export type MQTTClientOptions = MQTTConnectionOptions & {
     port: number;
     host: string;
+    clientId?: string;
 };
 /**
  * Connection Options for MQTT

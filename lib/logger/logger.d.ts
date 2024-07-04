@@ -29,40 +29,40 @@ export declare class ConsoleLogger implements ILogger {
      * @public
      * @param {...any[]} args
      */
-    fatal(...args: any[]): void;
+    fatal(message: string, ...args: any[]): void;
     /**
      * log error message
      *
      * @public
      * @param {...any[]} args
      */
-    error(...args: any[]): void;
+    error(message: string, ...args: any[]): void;
     /**
      * log warning message
      *
      * @public
      * @param {...any[]} args
      */
-    warn(...args: any[]): void;
+    warn(message: string, ...args: any[]): void;
     /**
      * log info message
      *
      * @public
      * @param {...any[]} args
      */
-    info(...args: any[]): void;
+    info(message: string, ...args: any[]): void;
     /**
      * log debug message
      *
      * @public
      * @param {...any[]} args
      */
-    debug(...args: any[]): void;
+    debug(message: string, ...args: any[]): void;
     /**
      * log trace message
      *
      * @public
      * @param {...any[]} args
      */
-    trace(...args: any[]): void;
+    trace(message: string, ...args: any[]): void;
 }

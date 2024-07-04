@@ -1,8 +1,8 @@
-[**node-mqtt**](../README.md) • **Docs**
+[**@m-reiniger/node-mqtt**](../README.md) • **Docs**
 
 ***
 
-[node-mqtt](../globals.md) / defaultBrokerOptions
+[@m-reiniger/node-mqtt](../globals.md) / defaultBrokerOptions
 
 # Variable: defaultBrokerOptions
 
@@ -12,4 +12,4 @@ default option set for MQTT broker
 
 ## Defined in
 
-[mqtt/mqtt-broker.ts:16](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-broker.ts#L16)
+[mqtt/mqtt-broker.ts:16](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-broker.ts#L16)
