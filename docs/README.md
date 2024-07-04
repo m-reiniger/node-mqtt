@@ -1,4 +1,4 @@
-**node-mqtt** • [**Docs**](globals.md)
+**@m-reiniger/node-mqtt** • [**Docs**](globals.md)
 
 ***
 
@@ -28,14 +28,20 @@ I am using [Aedes](https://github.com/moscajs/aedes) as a messaging broker and [
 
 This implementation supports:
 * all in one solution
-* insecure connecttions
+* insecure connections
 * username/password authentication
 * TLS connections
 * Log Level Based Logging
 * customizable event handlers
 * client can act as both, subscriber and publisher
 
-## Example Usage
+## Install Package
+
+```
+npm i --save @m-reiniger/node-mqtt
+```
+
+## Example Usage Standalone
 
 Install Dependencies:
 ```
@@ -84,6 +90,8 @@ const options = {
 ```
 #### create and start broker
 ```TypeScript
+import { MQTTBroker } from "@m-reiniger/node-mqtt";
+
 // create broker
 const broker = new MQTTBroker(options);
 // start broker server
@@ -111,6 +119,8 @@ const options = {
 ```
 #### create client and connect
 ```TypeScript
+import { MQTTClient } from "@m-reiniger/node-mqtt";
+
 // create client
 const client = new MQTTClient(options);
 // connect to broker

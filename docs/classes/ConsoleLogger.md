@@ -1,8 +1,8 @@
-[**node-mqtt**](../README.md) • **Docs**
+[**@m-reiniger/node-mqtt**](../README.md) • **Docs**
 
 ***
 
-[node-mqtt](../globals.md) / ConsoleLogger
+[@m-reiniger/node-mqtt](../globals.md) / ConsoleLogger
 
 # Class: ConsoleLogger
 
@@ -36,7 +36,7 @@ Creates an instance of ConsoleLogger.
 
 #### Defined in
 
-[logger/logger.ts:23](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L23)
+[logger/logger.ts:23](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L23)
 
 ## Methods
 
@@ -62,7 +62,7 @@ log debug message
 
 #### Defined in
 
-[logger/logger.ts:93](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L93)
+[logger/logger.ts:93](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L93)
 
 ***
 
@@ -88,7 +88,7 @@ log error message
 
 #### Defined in
 
-[logger/logger.ts:57](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L57)
+[logger/logger.ts:57](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L57)
 
 ***
 
@@ -114,7 +114,7 @@ log fatal message
 
 #### Defined in
 
-[logger/logger.ts:45](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L45)
+[logger/logger.ts:45](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L45)
 
 ***
 
@@ -140,7 +140,7 @@ log info message
 
 #### Defined in
 
-[logger/logger.ts:81](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L81)
+[logger/logger.ts:81](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L81)
 
 ***
 
@@ -160,7 +160,7 @@ sets the log level
 
 #### Defined in
 
-[logger/logger.ts:34](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L34)
+[logger/logger.ts:34](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L34)
 
 ***
 
@@ -186,7 +186,7 @@ log trace message
 
 #### Defined in
 
-[logger/logger.ts:105](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L105)
+[logger/logger.ts:105](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L105)
 
 ***
 
@@ -212,4 +212,4 @@ log warning message
 
 #### Defined in
 
-[logger/logger.ts:69](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/logger/logger.ts#L69)
+[logger/logger.ts:69](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/logger/logger.ts#L69)

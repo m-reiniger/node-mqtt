@@ -1,8 +1,8 @@
-[**node-mqtt**](../README.md) • **Docs**
+[**@m-reiniger/node-mqtt**](../README.md) • **Docs**
 
 ***
 
-[node-mqtt](../globals.md) / MQTTClient
+[@m-reiniger/node-mqtt](../globals.md) / MQTTClient
 
 # Class: MQTTClient
 
@@ -32,7 +32,7 @@ Creates an instance of MQTTClient.
 
 #### Defined in
 
-[mqtt/mqtt-client.ts:46](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L46)
+[mqtt/mqtt-client.ts:46](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-client.ts#L46)
 
 ## Methods
 
@@ -52,7 +52,7 @@ connects to the MQTT broker
 
 #### Defined in
 
-[mqtt/mqtt-client.ts:58](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L58)
+[mqtt/mqtt-client.ts:58](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-client.ts#L58)
 
 ***
 
@@ -74,7 +74,7 @@ Bind custom event handler
 
 #### Defined in
 
-[mqtt/mqtt-client.ts:150](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L150)
+[mqtt/mqtt-client.ts:151](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-client.ts#L151)
 
 ***
 
@@ -98,7 +98,7 @@ Publishes a message to a topic
 
 #### Defined in
 
-[mqtt/mqtt-client.ts:130](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L130)
+[mqtt/mqtt-client.ts:131](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-client.ts#L131)
 
 ***
 
@@ -114,7 +114,7 @@ disconnects from the MQTT broker
 
 #### Defined in
 
-[mqtt/mqtt-client.ts:93](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L93)
+[mqtt/mqtt-client.ts:94](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-client.ts#L94)
 
 ***
 
@@ -138,4 +138,4 @@ Subscribes to a topic
 
 #### Defined in
 
-[mqtt/mqtt-client.ts:106](https://github.com/m-reiniger/node-mqtt/blob/5c2b801763ed31382f793f2f239f593fba632c77/src/mqtt/mqtt-client.ts#L106)
+[mqtt/mqtt-client.ts:107](https://github.com/m-reiniger/node-mqtt/blob/b302ddcdc732ee83501a3d6d414cae5a2507d06a/src/mqtt/mqtt-client.ts#L107)
