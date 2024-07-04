@@ -6,12 +6,12 @@
  * @typedef {ILogger}
  */
 export interface ILogger {
-    fatal(...args: any[]): void;
-    error(...args: any[]): void;
-    warn(...args: any[]): void;
-    info(...args: any[]): void;
-    debug(...args: any[]): void;
-    trace(...args: any[]): void;
+    fatal(message: string, ...args: any[]): void;
+    error(message: string, ...args: any[]): void;
+    warn(message: string, ...args: any[]): void;
+    info(message: string, ...args: any[]): void;
+    debug(message: string, ...args: any[]): void;
+    trace(message: string, ...args: any[]): void;
 }
 /**
  * Log Levels

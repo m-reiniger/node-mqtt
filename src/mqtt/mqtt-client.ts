@@ -61,7 +61,8 @@ export class MQTTClient {
         // setting up mqtt client options
         const mqttClientOptions: IClientOptions = {
             port: this.options.port,
-            host: this.options.host
+            host: this.options.host,
+            clientId: this.options.clientId
         };
 
         if (this.options.auth.useAuth) {
